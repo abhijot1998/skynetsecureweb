@@ -1,0 +1,93 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    
+}
+.navbar li{
+padding: 5px 15px 5px 15px;
+}
+.taskbar{
+    background-color: black;
+    
+}
+.taskbar a{
+    color: rgba(255,255,255, 0.8);
+}
+ .jumbotron{
+     background-image: url("aboutus/background1.png");
+     height: 600px;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: black !important;
+     box-shadow: 0 6px 8px   rgba(0, 0, 0, 0.226);
+     background-color:black;
+     border-radius:1px;
+     
+ }
+ .aboutuscontainer{
+    color: rgb(78, 78, 78);
+ }
+ .aboutuscontainer .card{
+     border-style:none;
+
+     
+ }
+ .introcontainer{
+     background-color:  #d5d2ff6e;
+     box-shadow: 0 4px 8px   rgba(0, 0, 0, 0.226);
+     
+     border-radius:1px;
+
+ }
+ .introcontainer .img-fluid{
+    border :5px solid #d5d2ff6e;
+}
+.introcontainer .container{
+    background-color: white;
+    box-shadow: 0 4px 8px   rgba(0, 0, 0, 0.226);
+    border-radius:1px;
+}
+.introcontainer .card{
+    border-style:none; 
+}
+.introcontainer .container:hover{
+    transform: scale(1.1);
+}
+.introcontainer .container{
+transition: all .45s ease-in-out;
+}
+
+
+.testimonial{
+
+}
+.testimonialcontainer .card{
+border-style: none;
+box-shadow: 0 2px 8px  rgba(192, 190, 190, 0.226),0 1px 6px rgba(131, 130, 130, 0.178) ;
+border-radius:5px;
+border:1px solid #d5d2ff6e;
+margin-bottom:5px; 
+
+}
+ .footercontainer{
+    background-color: #5B63B7;
+    color: rgb(230, 228, 228);
+    border-radius: 2px;
+}
+.footercontainer ul{
+    list-style: none;
+}
+.footercontainer a{
+    color: rgb(230, 228, 228);
+    text-decoration: none;
+}
+.footercontainer h3{
+    font-size: 1.5em;
+    color: #fcddf7;
+}
+
+ 
+ 

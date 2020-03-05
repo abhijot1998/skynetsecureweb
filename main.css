@@ -1,0 +1,201 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    
+}
+.navbar li{
+padding: 5px 15px 5px 15px;
+}
+.taskbar{
+    background-color: black;
+    
+}
+.taskbar a{
+    color: rgba(255,255,255, 0.8);
+}
+.backgroundclass{
+    background-image:url("home/3.png");
+    height: 80vh;
+    background-position: right;
+    
+   
+}
+.backgroundcontainer{
+    box-shadow: 0 6px 12px   rgba(0, 0, 0, 0.226);
+    background-color:black;
+    border-radius:1px;
+}
+.backgroundcontainer button{
+    background-color: rgb(192, 192, 192);
+    color: bisque;
+    border-radius:3px;
+    box-shadow: 0 6px 8px   rgba(0, 0, 0, 0.226);
+    padding: 8px 25px 8px 25px;
+}
+.Hometext{
+color: bisque;
+margin-top: 50%;
+}
+.aboutcontainer{
+    
+    background-color: #d5d2ff6e;
+    opacity: 1;
+    }
+    .aboutcontainer .row{
+         background-color: white; 
+         box-shadow: 0 6px 8px   rgba(0, 0, 0, 0.226);
+         border-radius: 4px;
+         font-size: 1.1em;
+         transform: translateY(50px);
+    }
+    .servicecontainertext .card{
+        border:0px;
+        box-shadow: 0 6px 8px   rgba(0, 0, 0, 0.226);
+        border-radius: 4px;
+        margin-top:5px;
+        margin-bottom: 5px;
+        padding: 3px;
+        color: rgb(78, 78, 78);
+        transition: all .2s ease-in-out;
+
+
+    }
+    .servicecontainertext h2{
+        color: rgb(39, 39, 39);
+        text-transform: uppercase;
+        text-shadow: 0px 1px 2px rgba(44, 44, 44, 0.164);
+        
+        
+        
+
+    }
+
+
+    .servicecontainertext .servicepara{
+        color: rgb(39, 39, 39);
+        font-size: 1em;
+        border-bottom: 1px solid #9296f0;
+    }
+
+    .callactioncontainer{
+        background-color: #9296f0;
+        box-shadow: 0 6px 8px   rgba(211, 217, 252, 0.884);
+        border-radius: 4px;
+        
+    }
+    .callactioncontainer button{
+        padding: 8px 30px 8px 30px;
+        border-radius:5px; 
+        background-color: white;
+        color: #5B63B7;
+        box-shadow: 0 6px 8px #9297f0a4 ;
+        border: 0px;
+
+    }
+    
+    .callactioncontainer .card{
+        border:0px;
+        background-color: #9296f0;
+        color: white;
+
+    }
+
+    .trainingcontainer .text{
+        font-size: 1.2em;
+        color: rgb(95, 95, 95);
+        text-transform: uppercase;
+        font-family: cursive;
+        
+    }
+    .traininglist{
+        list-style: none;
+        
+        }
+
+
+        .footercontainer{
+            background-color: #5B63B7;
+            color: rgb(230, 228, 228);
+            border-radius: 2px;
+        }
+        .footercontainer ul{
+            list-style: none;
+        }
+        .footercontainer a{
+            color: rgb(230, 228, 228);
+            text-decoration: none;
+        }
+        .footercontainer h3{
+            font-size: 1.5em;
+            color: #fcddf7;
+        }
+
+
+
+/* .backgroundcontainer::after {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    opacity: .7;
+} */
+
+
+        /* animation css 
+        */
+
+
+@keyframes backgroundclassan{
+    0%{
+        transform: rotate(xx);
+        opacity: 0;
+        }
+    25%{
+        transform: rotate(xx);
+        opacity: 0.5;
+        }
+    50%{
+        transform: rotate(xx);
+        opacity: 0;
+        }
+    75%{
+        transform: rotate(xx);
+        opacity: 0.5;
+        }
+    100%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+}
+
+.backgroundclass{
+    animation: backgroundclassan 5s infinite 0s ease-out;
+}
+
+
+
+@keyframes aboutcontaineran{
+    0%{
+        transform: translateY(50px);
+        }
+
+    100%{
+        transform:  translateY(0px);
+        }
+}
+
+.aboutcontainer .container{
+    animation: aboutcontaineran 4s 1 2s ease-in-out;
+    transform:  translateY(-50px);
+}
+
+.servicecontainertext .card:hover{
+transform: scale(1.1);
+}
+
+

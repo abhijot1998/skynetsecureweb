@@ -161,11 +161,11 @@ margin-top: 50%;
         }
     50%{
         transform: rotate(xx);
-        opacity: 0;
+        opacity: 0.7;
         }
     75%{
         transform: rotate(xx);
-        opacity: 0.5;
+        opacity: 0.8;
         }
     100%{
         transform: rotate(xx);

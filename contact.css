@@ -1,0 +1,113 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #080808;
+    
+}
+.navbar li{
+padding: 5px 15px 5px 15px;
+}
+.taskbar{
+    background-color: black;
+    
+}
+.taskbar a{
+    color: rgba(255,255,255, 0.8);
+}
+
+.breadcrumbcontainer{
+    background-color: #d5d2ff6e;
+    color:rgb(89, 0, 255);
+}
+
+.breadcrumbcontainer .li{
+    border-style: none;
+}
+/* .servicescontainer {
+
+} */
+
+.contactbackgroundcontainer{
+    background: url('contactbg1.png');
+    max-width: 100%;
+    height: 84vh;
+    background-position:cover;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.rowbackground{
+    
+    opacity: 0.8;
+    margin-top:100px;
+   
+    padding-right:0px;
+    
+    
+}
+
+input{
+    padding-right: 100px;
+    margin-top:20px;
+    outline: 0px;
+    border:0px;
+    border-bottom: 2px solid #5B63B7;
+    background: transparent;
+    color: white;
+    opacity:1 ;
+}
+
+button{
+    padding:5px 20px 5px 20px;
+    background-color: #5B63B7;
+    color:#D7DDD9;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    border-style: none;
+}
+.rowbackground .col-sm-8{
+    background-color:black;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(66, 66, 66);
+    border-radius: 2px;
+    
+}
+.rowbackground .col-sm-3{
+    background-color: #D7DDD9;
+    color:black;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(156, 156, 156, 0.281);
+    border-radius: 2px;
+}
+
+
+
+.footercontainer{
+    background-color: #5B63B7;
+    color: rgb(230, 228, 228);
+    border-radius: 2px;
+}
+.footercontainer ul{
+    list-style: none;
+}
+.footercontainer a{
+    color: rgb(230, 228, 228);
+    text-decoration: none;
+}
+.footercontainer h3{
+    font-size: 1.5em;
+    color: #fcddf7;
+}
+@media screen and (max-width:480px){
+    .maincontainer{
+        padding-top: 0% !important;
+    }
+
+    .rowbackground .col-sm-8,.col-sm-3{
+        padding: 8px;
+    }
+}
+
